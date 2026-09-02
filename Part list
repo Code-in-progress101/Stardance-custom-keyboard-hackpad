@@ -1,10 +1,14 @@
-91x Kailh PCB Socket (110 pack https://www.amazon.com.au/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW?th=1)
+1x Kailh PCB Socket (110 pack https://www.amazon.com.au/Hot-swap-CPG151101S11-Mechanical-Keyboard-Accessories/dp/B0BVH3SVHW?th=1)
 2x (still between linear and tactile))Kailh Deep Sea Silent Pro Box Switch Set(45), Linear Islet-CPG1511F01S12 https://www.kailh.net/products/kailh-deep-sea-silent-pro-box-switch-set?variant=51645893968238
 5x ec11 (https://handsontec.com/index.php/product/ec11-rotary-encoder-with-push-button-switch/)
-1x (keycaps, porably get some novalty ones for teh custom keys)https://keychron.com.au/collections/keycaps/products/cherry-profile-double-shot-pbt-shine-through-keycap-set
-
-
+1x (keycaps, probably get some novelty ones for teh custom keys)https://keychron.com.au/collections/keycaps/products/cherry-profile-double-shot-pbt-shine-through-keycap-set
+1x https://au.mouser.com/en/ProductDetail/Diodes-Incorporated/74HC595S16-13?qs=Oxncjon6mbpUnP4m3qeQcw%3D%3D 
+1x https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html?srsltid=AfmBOoo4v5MlSyceBrPCG_7jGtNz0CExNdr3M2vBvyPPZwXOG4mcqewX
+1x 2.4" screen (https://www.amazon.com.au/Hosyond-inches-Display-SSD1309-Arduino/dp/B0GVDVCF4P)
+1x touch pad (need another source as min order is 75https://au.mouser.com/en/ProductDetail/Azoteq/TPS65-201A-B?qs=HXFqYaX1Q2xTOMaMMZLZSg%3D%3D&srsltid=AfmBOoor5BVo1IGfJaQFvwkoJiJ-4mqbMX5OqbN4eo8qsc1susPaej0l https://www.dasenic.com/product/azoteq-tps65-201a-s?srsltid=AfmBOoqy9pDN413ZJk9DziaBwx3X2bSXzcHj2GL4mJT2KwF1JBkDDSmAsSk
 
 
 note/changes made to the design 
--cut out teh exteact keys in R0, to make the keycount down to 89 for chaper sets) 
+-cut out teh exact keys in R0 to make the key count down to 89 for cheaper sets) 
+- use this to keep track of input to key in the matrix https://docs.google.com/spreadsheets/d/18sgpRH9DzkUkNNBVxmqqw3QE70ZNNMIp5tRQm4uAP0s/edit?usp=sharing 
+- Before finalising, confirm that teh current design is possible and doable
