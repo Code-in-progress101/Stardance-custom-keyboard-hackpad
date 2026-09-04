@@ -3,7 +3,8 @@
 5x ec11 (https://handsontec.com/index.php/product/ec11-rotary-encoder-with-push-button-switch/)
 1x (keycaps, probably get some novelty ones for teh custom keys)https://keychron.com.au/collections/keycaps/products/cherry-profile-double-shot-pbt-shine-through-keycap-set
 1x (8 to 3 pins ) https://au.mouser.com/en/ProductDetail/Diodes-Incorporated/74HC595S16-13?qs=Oxncjon6mbpUnP4m3qeQcw%3D%3D 
-1x  (radio) https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html?srsltid=AfmBOoo4v5MlSyceBrPCG_7jGtNz0CExNdr3M2vBvyPPZwXOG4mcqewX
+1x  (radio) https://piaustralia.com.au/products/raspberry-pi-pico-2w
+1x orphus pcio https://piaustralia.com.au/products/raspberry-pi-pico-2w
 1x 2.4" screen (https://www.amazon.com.au/Hosyond-inches-Display-SSD1309-Arduino/dp/B0GVDVCF4P)
 1x touch pad https://au.mouser.com/en/ProductDetail/Azoteq/TPS65-201A-B?qs=HXFqYaX1Q2xTOMaMMZLZSg%3D%3D&srsltid=AfmBOoor5BVo1IGfJaQFvwkoJiJ-4mqbMX5OqbN4eo8qsc1susPaej0l https://www.dasenic.com/product/azoteq-tps65-201a-s?srsltid=AfmBOoqy9pDN413ZJk9DziaBwx3X2bSXzcHj2GL4mJT2KwF1JBkDDSmAsSk
 1x battery https://www.jaycar.com.au/18650-samsung-3500mah-3-7v-flat-top-li-ion-rechargeable-battery/p/SB2630?srsltid=AfmBOoqTPSKakQIEVrc7ROldf5vdPQZmodRzdbH16i7EZ54Dq8M4Ka8i_9g (li ion longer life, and safer )
@@ -17,9 +18,9 @@ note/changes made to the design
 -cut out teh exact keys in R0 to make the key count down to 89 for cheaper sets) 
 - use this to keep track of input to key in the matrix https://docs.google.com/spreadsheets/d/18sgpRH9DzkUkNNBVxmqqw3QE70ZNNMIp5tRQm4uAP0s/edit?usp=sharing 
 -changed teh esp32 to a pico w to reduce code complexity(now can be all rust), they work better togther and now have more pins
--note teh RE cannot be put into the matrix easly, so wire directly 
+-note teh RE cannot be put into the matrix easly, so wire directly, look into how to use teh chip to cutdown pin count, direclty only leaves 13 not accounting for power distro, if works can leave uptio 28 pisn for distro and USB
 -Before finalising, confirm that teh current design is possible and doable
 
 
 Dimensions of parts 
-see drive
+see drive https://drive.google.com/drive/folders/1NaIovXheIJPwEztpStkLziOxv1OYA29k?usp=share_link
