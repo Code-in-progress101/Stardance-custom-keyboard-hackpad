@@ -7,6 +7,11 @@
 1x 2.4" screen (https://www.amazon.com.au/Hosyond-inches-Display-SSD1309-Arduino/dp/B0GVDVCF4P)
 1x touch pad https://au.mouser.com/en/ProductDetail/Azoteq/TPS65-201A-B?qs=HXFqYaX1Q2xTOMaMMZLZSg%3D%3D&srsltid=AfmBOoor5BVo1IGfJaQFvwkoJiJ-4mqbMX5OqbN4eo8qsc1susPaej0l https://www.dasenic.com/product/azoteq-tps65-201a-s?srsltid=AfmBOoqy9pDN413ZJk9DziaBwx3X2bSXzcHj2GL4mJT2KwF1JBkDDSmAsSk
 1x battery https://www.jaycar.com.au/18650-samsung-3500mah-3-7v-flat-top-li-ion-rechargeable-battery/p/SB2630?srsltid=AfmBOoqTPSKakQIEVrc7ROldf5vdPQZmodRzdbH16i7EZ54Dq8M4Ka8i_9g (li ion longer life, and safer )
+1x foam (dampens sound) https://www.desertcart.com.au/products/472765908-honkid-keyboard-foam-sound-dampening-poron-foam-for-keyboard-black?srsltid=AfmBOorFtffpKhRx7mASFiysd43BCLat_zTXjis-bUMgkOiJUqaaM2h8 
+
+
+
+
 
 note/changes made to the design 
 -cut out teh exact keys in R0 to make the key count down to 89 for cheaper sets) 
