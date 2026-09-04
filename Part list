@@ -16,7 +16,9 @@
 note/changes made to the design 
 -cut out teh exact keys in R0 to make the key count down to 89 for cheaper sets) 
 - use this to keep track of input to key in the matrix https://docs.google.com/spreadsheets/d/18sgpRH9DzkUkNNBVxmqqw3QE70ZNNMIp5tRQm4uAP0s/edit?usp=sharing 
-- Before finalising, confirm that teh current design is possible and doable
+-changed teh esp32 to a pico w to reduce code complexity(now can be all rust), they work better togther and now have more pins
+-note teh RE cannot be put into the matrix easly, so wire directly 
+-Before finalising, confirm that teh current design is possible and doable
 
 
 Dimensions of parts 
