@@ -15,7 +15,9 @@
 
 
 note/changes made to the design 
--cut out teh exact keys in R0 to make the key count down to 89 for cheaper sets) 
+-cut out teh exact keys in R0 to make the key count down to 89 for cheaper sets) (done)
+-widen boards on top and bottem to allow for both bots verticle and horisonal, increade for 10-20mm 
+-check thicknes of deign aiing for 35mm
 - use this to keep track of input to key in the matrix https://docs.google.com/spreadsheets/d/18sgpRH9DzkUkNNBVxmqqw3QE70ZNNMIp5tRQm4uAP0s/edit?usp=sharing 
 -changed teh esp32 to a pico w to reduce code complexity(now can be all rust), they work better togther and now have more pins
 -note teh RE cannot be put into the matrix easly, so wire directly, look into how to use teh chip to cutdown pin count, direclty only leaves 13 not accounting for power distro, if works can leave uptio 28 pisn for distro and USB
